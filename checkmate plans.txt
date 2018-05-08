@@ -1,0 +1,8 @@
+After every move,
+Chessboard checks if king is under attack
+If king is under attack: Set variable check to "true"
+If check is true:
+Check all pieces for legal squares: If no legal squares are found:
+Checkmate.
+If legal squares are found:
+For every piece: Check legal squares to make sure check is stopped. If check is not stopped, remove from legal squares.
